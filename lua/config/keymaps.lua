@@ -21,3 +21,6 @@ keymap("n", "<leader>gp", ":Git push<CR>", { desc = "Git push" })
 keymap("n", "<leader>gP", ":Git pull<CR>", { desc = "Git pull" })
 keymap("n", "<leader>gi", ":Git init<CR>", { desc = "Git init" })
 keymap("n", "<leader>ga", ":Git add .<CR>", { desc = "Git add all" })
+
+-- NeoTree
+keymap("n","<leader>e", ":Neotree toggle<CR>")
